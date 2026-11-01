@@ -16,7 +16,7 @@
 
 ## モグラの「刺す・押し広げる・戻す」をロボットの構造にした
 
-![Molebot の円錐アーム（CoppeliaSim）](docs/figures/molebot_cones.jpg)
+![Molebot の構造：ボディー、移動用車輪、円錐アームの関節（直進・長い方向/短い方向の回転）、掘るときに開閉する円錐の半分](docs/figures/molebot_structure.png)
 
 ```mermaid
 flowchart LR
