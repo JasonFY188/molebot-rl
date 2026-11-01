@@ -1,0 +1,26 @@
+{
+  "algo": "ppo",
+  "task": "cross",
+  "timesteps": 100000,
+  "seed": 0,
+  "n_envs": 6,
+  "net_arch": [
+    256,
+    256
+  ],
+  "obs_dim": 30,
+  "n_act": 10,
+  "joint_alias": [
+    "back_left_wheel_joint",
+    "back_right_wheel_joint",
+    "front_left_wheel_joint",
+    "front_right_wheel_joint",
+    "Prismatic_joint",
+    "Prismatic_joint",
+    "Revolute_joint",
+    "Revolute_joint",
+    "Revolute_joint",
+    "Revolute_joint"
+  ],
+  "wall_time_s": 10118.1
+}

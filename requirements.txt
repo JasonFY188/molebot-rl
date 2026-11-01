@@ -1,0 +1,14 @@
+# Molebot RL dependencies (installed into conda env "molebot", Python 3.13).
+#
+# PyTorch must come from the CUDA 12.8 index for the RTX 5090 (Blackwell):
+#     pip install torch --index-url https://download.pytorch.org/whl/cu128
+# (or use setup_env.ps1, which does all of this)
+#
+# The rest install from PyPI normally:
+stable-baselines3[extra]==2.9.0
+gymnasium==1.3.0
+coppeliasim-zmqremoteapi-client==2.0.4
+tensorboard==2.21.0
+matplotlib
+pandas
+numpy

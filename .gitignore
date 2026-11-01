@@ -1,0 +1,11 @@
+# training outputs (only the curated results/ folder is committed)
+runs/
+*.log
+# private / local
+.env
+.vscode/
+CLAUDE.md
+# Python
+__pycache__/
+*.py[cod]
+.venv/
